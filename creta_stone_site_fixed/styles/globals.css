@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{ --accent:#cfc8c1 }
+body{ @apply bg-creta-900 text-creta-accent antialiased }
+a{ @apply text-creta-accent hover:underline }
+.header { @apply bg-gradient-to-b from-black/70 to-black/50 backdrop-blur sticky top-0 z-50 }
+.card { @apply bg-gradient-to-b from-black/60 to-black/50 border border-white/5 rounded-2xl p-6 }
+.btn-primary { @apply bg-creta-accent text-black font-semibold py-2 px-4 rounded-lg shadow-lg }
+
+/* small UI tweaks */
+.container{ max-width:1200px; margin:0 auto; padding:0 16px }
